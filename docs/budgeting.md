@@ -27,10 +27,10 @@ To (re)budget between Expense accounts, simply create a new transaction transfer
 between Income/Expense accounts. Due to the nature of double-entry bookkeeping, the signs
 will be the opposite of what you might expect!
 
-For example, suppose you have $3000 in unbudgeted income and you want to fill out your budget for the upcoming month:
+For example, suppose you have $2000 in unbudgeted income and you want to fill out your budget for the upcoming month:
 
 ```
-2020-02-01 "Budgeting for February"
+2020-02-01 * "Budgeting for February"
   Income:To-be-budgeted              2,000 USD
   Expenses:Obligations:Rent         -1,000 USD
   Expenses:Obligations:Utilities      -100 USD
@@ -43,7 +43,7 @@ Remember, the signs appear swapped! This takes $2000 _out_ of the "To be budgete
 Later, if you realize that you need more money for groceries (and don't need nearly as much for video games), you can rebudget money like so:
 
 ```
-2020-02-13 "Need more money for fancy home dinner plans"
+2020-02-13 * "Need more money for fancy home dinner plans"
   Expenses:Necessities:Groceries      -300 USD
   Expenses:Fun-money:Video-games       300 USD
 ```
